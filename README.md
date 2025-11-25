@@ -1,15 +1,15 @@
-# LibXray
-https://github.com/XTLS/libXray  
+# RunVPNXCore
+https://github.com/XTLS/RunVPNXCore  
 ios-arm64 ios-arm64_x86_64-maccatalyst ios-arm64_x86_64-simulator macos-arm64_x86_64
 
 # zip
 ```shell
-zip -r LibXray.xcframework.zip LibXray.xcframework
+zip -r RunVPNXCore.xcframework.zip RunVPNXCore.xcframework
 ```
 
 ## 校验
 ```shell
-swift package compute-checksum LibXray.xcframework.zip
+swift package compute-checksum RunVPNXCore.xcframework.zip
 ```
 
 ## 如果有冲突
